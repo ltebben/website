@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Co-op Experience</title>
+	</head>
+	<body>
+		<h1>Applications Engineering Coop</h1>
+		<h3>Siemens PLM Software</h3>
+		<p>My first co-op rotation was spent learning how to use Siemens’ CAD software, NX, and understanding the expected behavior of its Drafting-specific tools. I spent a lot of time manually testing the software for bugs. The main aspect of my job was recording autotests to test regression scenarios. This basically meant recording a session of NX in which I manually followed a series of steps which produced an error in a previous version of NX. Then, upon each new release of NX, my tests would be played back to make sure that the error did not occur again. I gained a firm grasp on how to use CAD software to model 3D objects and how to translate those models to 2D drawings.</p>
+		 
+		<p>During my second rotation, the first couple of months was spent continuing my work from the previous semester. One project I did complete in that time was determining whether switching Drafting’s autotests from C++ to Python would be worthwhile. I did this by recording autotests for an entire project solely in Python, then testing to see if they caught the errors they were supposed to. Then I checked to see how the difficulty of debugging the Python errors compared to the difficulty of debugging the C++ errors. Overall I determined that recording the tests in Python would not result in any extra work for those recording the tests, and that debugging them was almost identical to debugging the C++ tests. This lead to the department adopting Python as its new autotest language.</p>
+		 
+		<p>My main project of the second semester, which I worked on during the final 3 weeks of the rotation, was extending the functionality of a tool that allowed users to search for part files based on features they contained. This tool was to be used internally to determine good part files to use for testing purposes. For example, if I was going to test for bugs in editing dimensions, I could use this tool to search a directory for part files containing a specified number of dimensions. It would return a list of files, then from that I could choose one that best suited my purposes. My role in this project was to extend the number of different types of Drafting data the tool collected, so searches could be more specific. Because I had been a tester up until this point, I started this project without having previously worked with the NX code base. Additionally, my manager did not work in the same office as me, and he didn’t know anything about programming. So in the short amount of time I had, I had to teach myself the structure of the code and how to use NX’s API, then apply what I learned to complete this project. I had some help from other developers along the way, but I learned most of this information on my own. At the end of 3 weeks, I had more than doubled the number of pieces of Drafting information the tool scanned for. When I first got the project, it scanned for 25-30 pieces of Drafting data. In my time of working with it, I increased that number to 55-65 pieces of Drafting data. This tool is going to save QA analysts a lot of time since they won’t have to manually search through directories to find part files that match their needs.</p>
+		</p>
+	</body>
+</html>
