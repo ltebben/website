@@ -5,24 +5,31 @@
 		<link rel="icon" type="image/png" href="favicon.png"/>
 		<link href="style.css" rel="stylesheet" type="text/css" />
 	</head>
-	<body>
+	<body id="projects">
 		<h1>Personal Projects</h1>
 
-		<h3>Digital Circuit Visualizer:</h3>
+		<h3>Digital Circuit Visualizer:</h3>		
+		<div class="description">
 		<p>I have been working with a partner on a Java applet that allows a user to build and test a digital circuit. The user first places the top level gate, then adds child gates associated with that gate, and adds inputs as needed. Then they can click “Evaluate” and the program will return the expected output. This project implements abstract classes, and we hope to extend it to use multithreading. You can view the project here: <a href="https://github.com/zcollins0/digital-circuit-visualizer">github.com/zcollins0/digital-circuit-visualizer</a>, though it is still a work in progress. It works but there are some bugs when deleting gates and displaying the results table.</p>
-		<img src="circuitvisualizer.png" />
-
+		</div>
+	<img class="proj-pic" src="circuitvisualizer.png" alt="screenshot of a circuit and a true/false table"/>
 		<h3>Campus Accessibility App: </h3>
+		<div class="description">
 		<p>For 2016's HackOhi/o, Ohio State University's hackathon, two friends and I created an Android app intended for people with physical disabilities. It aims to help those people navigate the University of Cincinnati's difficult campus. UC is build upwards instead of outwards, which can lead to a lot of areas with long, steep wheelchair ramps, and some areas without ramps at all. We are also under constant construction, meaning that typical routes are routinely blocked off. So our app uses the Google Maps API and allows users to place markers on difficult to navigate areas aind offer an alternative route. I worked on the front end, using Android Studio and Java.</p>
-		<img src="campusaccessibility2.png" />
-		<img src="campusaccessibility.png" />
+		</div>
+		<img src="campusaccessibility2.png" alt="map of UC with markers on difficult to navigate areas" class="ca"/>
+		<img src="campusaccessibility.png" alt="popup describing the problem area and a suggested alternate route" class="ca"/>
 
 		<h3>Slider Puzzle:</h3>
+		<div class="description">
 		<p>A friend and I created a Java applet slider puzzle. The program takes an image as input, splits it into 9 or 25 equally sized pieces based on user selection, removes the bottom right square, and shuffles the images. The user then tries to swap the pieces around to arrive back at the original image. You can find the code for the puzzle here:<a href=" https://github.com/ltebben/SliderPuzzle">github.com/ltebben/SliderPuzzle</a>. Feel free to download and try it yourself!</p>
-		<img src="sliderpuzzle.png" />
+		</div>
+		<img class="proj-pic" src="sliderpuzzle.png" alt="screenshot of shuffled puzzle"/>
 
 		<h3>Memebot:</h3>
+		<div class="description">
 		<p>A group of friends and I created a GroupMe chatbot that returns memes on command for last year’s RevolutionUC hackathon. The python project is hosted on Amazon Web Services. The chatbot listens for the string “memebot” in the chat, and when it hears it, it communicates with a meme database, asking for a meme to return. If the database only has memes that have been used recently, then it communicates with reddit to get new memes from a variety of subreddits. Each time it communicates with reddit, reddit returns 30 new memes. One of them is sent directly to the chatbot, and they are all stored in the database. Every time a meme is used, the “popularity” of the meme is reset to 0. The memes that are downloaded from reddit and not used have a popularity of 25. Every time a meme is used, the popularity of all the memes in the database is increased by 1. The database sends the meme with the highest popularity to the chatbot. You can view this project here:<a href=" https://github.com/kurtlewis/MemeBot">github.com/kurtlewis/MemeBot</a></p>
-		<img src="memebot.png" />
+		</div>
+		<img id="mb" src="memebot.png" alt="screenshot of user typing 'Memebot' and the bot returning a meme"/>
 	</body>
 </html>
