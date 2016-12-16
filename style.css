@@ -1,14 +1,17 @@
 *{
-/*	border: 1px solid rgba(0, 0, 0, 0.3);*/
+	/*border: 1px solid rgba(0, 0, 0, 0.3);*/
 	box-sizing: border-box;
-	color: white;
 	font-size: 16px;
+	font-family: 'Open Sans';
 }
 
 #name {
 	font-size: 50px;
-	font-family: Roboto;
+	font-family: 'Open Sans';
 	text-shadow: 2px 2px 2px black;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	color: 	#699bce;
 }
 
 #date {
@@ -16,16 +19,24 @@
 	font-size: 10px;
 }
 
-body {
+.sections {
+	font-size: 32px;
+}
+
+.Home{
 	background: url("file:///home/laura/website/seniorpicbw.jpg") no-repeat center center;
 	background-size: cover;
 	background-attachment: scroll;
 	max-width: 100%;
+	color: white;
 }
 
 h1 {
+	font-family: 'Alfa Slab One';
+	font-size: 32px;
 	width: 100%;
 	text-align: center;
+	letter-spacing:1px;
 }
 
 .options {
@@ -78,13 +89,13 @@ h1 {
 }
 
 .dropdown:hover .droptitle {
-	background-color: #3e8341;
+	background-color: #849fba;
 }
 
 .shadowed-content {
 	text-align: justify;
 	text-justify: inter-word;
-	text-shadow: 2px 2px 2px black;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	max-width: 75%;
 	margin: auto;
 }
