@@ -108,13 +108,13 @@ h1 {
 	shape-outside: content-box;
 	-webkit-clip-path: content-box;
 	margin-bottom: 5px;
-	margin-right: 50px;
+	margin-right: 40px;
 	margin-top: 20px;
 }
 
 .ca {
 	display: inline-block;
-	max-height: 266px;
+	max-height: 250px;
 	max-width: 150px;
 	float: right;
 	shape-outside: content-box;
@@ -124,7 +124,7 @@ h1 {
 }
 
 .description {
-	margin-bottom: 100px;
+	margin-bottom: 70px;
 }
 
 .description p {
@@ -139,6 +139,7 @@ h1 {
 	shape-outside: content-box;
 	-webkit-clip-path: content-box;
 	margin-top: 20px;
+	margin-right: 20px;
 
 }
 
@@ -164,4 +165,19 @@ h1 {
 
 .coop-body {
 	line-height: 1.5em;
+}
+
+.pdf {
+	max-width: 100%;
+}
+
+.organizer-pic {
+	width: 400px;
+	max-width: 50%;
+	display: inline-block;
+	float: right;
+	shape-outside: content-box;
+	-webkit-clip-path: content-box;
+	margin-top: 5px;
+
 }
