@@ -152,15 +152,16 @@ h1 {
 	padding: 5px 30px;
 }
 
-.page-body p{
-	margin-left: 10px;
-}
-
 .coop-pic {
+	width: 400px;
 	max-width: 50%;
 	display: inline-block;
 	float: right;
 	shape-outside: content-box;
 	-webkit-clip-path: content-box;
-	margin-top: 20px;
+	margin-top: 85px;
+}
+
+.coop-body {
+	line-height: 1.5em;
 }
