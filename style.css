@@ -1,5 +1,5 @@
 *{
-	border: 1px solid rgba(0, 0, 0, 0.3);
+/*	border: 1px solid rgba(0, 0, 0, 0.3);*/
 	box-sizing: border-box;
 	font-size: 16px;
 	font-family: 'Open Sans';
@@ -101,38 +101,53 @@ h1 {
 }
 
 .proj-pic {
-	width: 50%;
 	max-height: 250px;
 	max-width: 250px;
 	display: inline-block;
 	float: right;
+	shape-outside: content-box;
+	-webkit-clip-path: content-box;
+	margin-bottom: 5px;
 	margin-right: 50px;
+	margin-top: 20px;
 }
 
 .ca {
-	width: 20%;
 	display: inline-block;
 	max-height: 266px;
 	max-width: 150px;
 	float: right;
+	shape-outside: content-box;
+	-webkit-clip-path: content-box;
+	margin-top: 20px;
+	padding-left: 5px;
 }
 
 .description {
-	display: inline-block;
-	width: 50%;
-	margin: 0px 0px 50px 0px;
+	margin-bottom: 100px;
+}
+
+.description p {
+	line-height: 1.5em;
 }
 
 #mb {
 	display: inline-block;
-	width: 45%;
 	max-height: 250px;
-	max-width: 350px;
+	max-width: 300px;
 	float: right;
+	shape-outside: content-box;
+	-webkit-clip-path: content-box;
+	margin-top: 20px;
 
 }
 
 #projects h3 {
+	font-size: 20px;
 	width: 50%;
 	display: inline-block;
+}
+
+#projects {
+	padding: 5px 30px;
 }
