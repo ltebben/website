@@ -185,6 +185,10 @@ h1 {
 	margin-bottom: 10px;
 }
 
+#coop-title {
+	margin-bottom: 30px;
+}
+
 .coop-pic {
 	width: 400px;
 	max-width: 50%;
@@ -192,7 +196,7 @@ h1 {
 	float: right;
 	shape-outside: content-box;
 	-webkit-clip-path: content-box;
-	margin-top: 30px;
+	margin-top: 40px;
 }
 
 .coop-body {
