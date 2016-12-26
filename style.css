@@ -1,6 +1,8 @@
 *{
 /*	border: 1px solid rgba(0, 0, 0, 0.3);*/
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 	font-size: 16px;
 	font-family: 'Open Sans';
 }
@@ -45,11 +47,13 @@ h1 {
 	width: 100%;
 	text-align: center;
 	letter-spacing:1px;
+	margin-bottom: 10px;
 }
 
 .options {
 	width: 100%;
 	text-align: center;
+	background-color: rgba(170,170,170,0.2);
 }
 
 .options .dropdown{
@@ -133,6 +137,11 @@ h1 {
 	padding-left: 5px;
 }
 
+.main-body {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
 .description {
 	margin-bottom: 70px;
 }
@@ -159,8 +168,11 @@ h1 {
 	display: inline-block;
 }
 
-.page-body {
+.bod {
 	padding: 5px 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
 
 .coop-pic {
