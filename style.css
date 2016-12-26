@@ -37,7 +37,7 @@ body p {
 	width: 40%;
 	max-width: 400px;
 	display: block;
-	margin: 0px auto;
+	margin: 10px auto;
 }
 
 .contact-info {
@@ -55,63 +55,6 @@ h1 {
 	margin-bottom: 10px;
 }
 
-.options {
-	width: 100%;
-	text-align: center;
-	background-color: rgba(170,170,170,0.2);
-}
-
-.options .dropdown{
-	display: inline-block;
-	padding: 10px 50px;
-}
-
-.droptitle {	background-color: #FC4A6A;
-	color: black;
-	padding: 16px;
-	font-size: 16px;
-	cursor: pointer;
-	border-radius: 5px;
-}
-
-.dropdown {
-	display: inline-block;
-	position: relative;
-}
-
-.content {
-	display: none;
-	position: absolute;
-	background-color: #f9f9f9;
-	width: 60%;
-	z-index: 1000;
-}
-
-.content a {
-	color: black;
-	padding: 12px 16px;
-	display: block;
-	text-align: left;
-}
-
-.content a:hover {
-	background-color: #f1f1f1;
-}
-
-.dropdown:hover .content {
-	display: block;
-}
-
-.dropdown:hover .droptitle {
-	background-color: #849fba;
-}
-
-.shadowed-content {
-	text-align: justify;
-	text-justify: inter-word;
-	max-width: 75%;
-	margin: auto;
-}
 
 .proj-pic {
 	max-height: 250px;
@@ -201,4 +144,62 @@ h1 {
 	-webkit-clip-path: content-box;
 	margin-top: 5px;
 
+}
+
+.options {
+	width: 100%;
+	text-align: center;
+	background-color: rgba(170,170,170,0.2);
+}
+
+.options .dropdown{
+	display: inline-block;
+	padding: 10px 50px;
+}
+
+.droptitle {	background-color: #FC4A6A;
+	color: black;
+	padding: 16px;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.dropdown {
+	display: inline-block;
+	position: relative;
+}
+
+.content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	width: 60%;
+	z-index: 1000;
+}
+
+.content a {
+	color: black;
+	padding: 12px 16px;
+	display: block;
+	text-align: left;
+}
+
+.content a:hover {
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .content {
+	display: block;
+}
+
+.dropdown:hover .droptitle {
+	background-color: #849fba;
+}
+
+.shadowed-content {
+	text-align: justify;
+	text-justify: inter-word;
+	max-width: 75%;
+	margin: auto;
 }
