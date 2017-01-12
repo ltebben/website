@@ -119,13 +119,11 @@ h1 {
 	margin-bottom: 30px;
 }
 
-.coop-pic {
+.article-pic {
 	width: 400px;
 	max-width: 50%;
-	display: inline-block;
 	float: right;
 	shape-outside: content-box;
-	-webkit-clip-path: content-box;
 	margin-top: 40px;
 }
 
@@ -135,17 +133,6 @@ h1 {
 
 .pdf {
 	max-width: 100%;
-}
-
-.organizer-pic {
-	width: 400px;
-	max-width: 50%;
-	display: inline-block;
-	float: right;
-	shape-outside: content-box;
-	-webkit-clip-path: content-box;
-	margin-top: 5px;
-
 }
 
 .options {
