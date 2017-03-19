@@ -47,6 +47,10 @@ body p {
 	margin-right: auto;
 }
 
+.contact-info a {
+	color: #0000EE;
+}
+
 h1 {
 	font-size: 32px;
 	width: 100%;
