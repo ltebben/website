@@ -245,7 +245,7 @@ button:hover#menu-icon {
 .nav {
 	display: none;
 	float: right;
-	width: 60%;
+	width: 70%;
 	height: 40px;
 }
 
@@ -283,7 +283,7 @@ button:hover#menu-icon {
 
 .menuoptions a {
 	padding-left: 10px;
-	padding-right: 10px;
+	padding-right: 20px;
 }
 
 .drop2 ul, li {
@@ -304,7 +304,7 @@ button:hover#menu-icon {
 .nav:hover .drop2 {
 	display: block;
 	position: absolute;
-	width: 60%;
-	margin: 15px 15px 0 0;
+	width: 70%;
+	margin: 5px 15px 0 0;
 }
 }
