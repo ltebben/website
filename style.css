@@ -157,8 +157,16 @@ h1 {
 	padding: 10px 50px;
 }
 
-.drop1 li {
+.drop1 li, .drop2 li {
 	list-style-type: none;
+	text-decoration: none;
+	display: block;
+}
+
+.menuoptions a {
+	color: red;
+	text-align: left;
+	margin-left: 0px;
 }
 
 .droptitle {
@@ -176,6 +184,14 @@ h1 {
 	position: relative;
 }
 
+.drop2 {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	width: 70%;
+	z-index: 1000;
+}
+
 .drop1 {
 	display: none;
 	position: absolute;
@@ -184,15 +200,17 @@ h1 {
 	z-index: 1000;
 }
 
-.drop1 a {
+.drop1 a, .drop2 a {
 	color: black;
-	padding: 12px 16px;
+	padding: 12px 0;
+	margin: 0;
 	display: block;
 	text-align: left;
+	text-decoration: none;
 }
 
-.drop1 a:hover {
-	background-color: #f1f1f1;
+.drop1 a:hover, .drop2 a:hover {
+	background-color: #ededed;
 }
 
 .dropdown:hover .drop1 {
@@ -208,4 +226,59 @@ h1 {
 	text-justify: inter-word;
 	max-width: 75%;
 	margin: auto;
+}
+
+#menu-icon {
+	display: none;
+	width: 40px;
+	height: 40px;
+	background: url(./menuicon.png) center;
+}
+
+button:hover#menu-icon {
+	background-color: #aaa;
+	border-radius: 0;
+}
+
+.nav {
+	display: inline-block;
+	float: right;
+	width: 50%;
+}
+
+.nav .topic {
+	text-align:left;
+}
+
+@media only screen and (max-width:650px) {
+
+.droptitle {
+	display: none;
+}
+
+.drop2 ul, li {
+	display: block;
+}
+
+.menuoptions li {
+	margin: 10px 0 0 30px;
+}
+
+.options {
+	background-color: white;
+}
+
+#menu-icon {
+	display: inline-block;
+	float: right;
+	margin: 20px 20px 0 0;
+	border: 0;
+}
+
+.nav:hover .drop2 {
+	display: block;
+	float:left;
+	width: 50%;
+	margin: 15px 15px 0 0;
+}
 }
