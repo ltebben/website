@@ -130,6 +130,8 @@ h1 {
 	margin-bottom: 30px;
 }
 
+@media only screen and (min-width: 650px)
+{
 .article-pic {
 	width: 400px;
 	max-width: 50%;
@@ -137,7 +139,7 @@ h1 {
 	shape-outside: content-box;
 	margin-top: 40px;
 }
-
+}
 .coop-body {
 	line-height: 1.5em;
 }
@@ -181,7 +183,7 @@ h1 {
 .drop1, .drop2 {
 	display: none;
 	position: absolute;
-	background-color: #f9f9f9;
+	background-color: #eee;
 	width: 70%;
 	z-index: 1000;
 }
@@ -227,8 +229,10 @@ button:hover#menu-icon {
 }
 
 .nav {
-	display: inline-block;
+	display: none;
 	float: right;
+	width: 50%;
+	height: 40px;
 }
 
 .nav .topic {
@@ -237,6 +241,9 @@ button:hover#menu-icon {
 
 @media only screen and (max-width:650px) {
 
+.nav {
+	display: inline-block;
+}
 .droptitle {
 	display: none;
 }
@@ -282,7 +289,7 @@ button:hover#menu-icon {
 .nav:hover .drop2 {
 	display: block;
 	position: absolute;
-	left: 370px;
+	width: 50%;
 	margin: 15px 15px 0 0;
 }
 }
