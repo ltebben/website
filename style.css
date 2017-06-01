@@ -79,10 +79,6 @@ h1 {
 	margin-bottom: 20px;
 }
 
-.description {
-	margin: 0px 30px 110px 30px;
-}
-
 .description p {
 	line-height: 1.5em;
 }
@@ -101,7 +97,7 @@ h1 {
 }
 
 .bod {
-	padding: 10px 30px;
+	padding: 10px 5px;
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-bottom: 10px;
@@ -115,8 +111,21 @@ h1 {
 	margin-bottom: 30px;
 }
 
+.article-pic {
+	width: 100%;
+}
+
 @media only screen and (min-width: 650px)
 {
+
+.bod {
+	padding: 10px 30px;
+}
+
+.description {
+	 margin: 0px 30px 110px 30px; 
+}
+
 .article-pic {
 	width: 400px;
 	max-width: 50%;
@@ -236,7 +245,7 @@ button:hover#menu-icon {
 .nav {
 	display: none;
 	float: right;
-	width: 50%;
+	width: 60%;
 	height: 40px;
 }
 
@@ -273,7 +282,8 @@ button:hover#menu-icon {
 }
 
 .menuoptions a {
-	padding-left: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .drop2 ul, li {
@@ -294,7 +304,7 @@ button:hover#menu-icon {
 .nav:hover .drop2 {
 	display: block;
 	position: absolute;
-	width: 50%;
+	width: 60%;
 	margin: 15px 15px 0 0;
 }
 }
