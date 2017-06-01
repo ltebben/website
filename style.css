@@ -1,5 +1,5 @@
 *{
-/*	border: 1px solid rgba(0, 0, 0, 0.3);*/
+	/*border: 1px solid rgba(0, 0, 0, 0.3);*/
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -229,7 +229,6 @@ button:hover#menu-icon {
 .nav {
 	display: inline-block;
 	float: right;
-	width: 50%;
 }
 
 .nav .topic {
@@ -239,6 +238,10 @@ button:hover#menu-icon {
 @media only screen and (max-width:650px) {
 
 .droptitle {
+	display: none;
+}
+
+.dropdown:hover .drop1 {
 	display: none;
 }
 
@@ -254,7 +257,11 @@ button:hover#menu-icon {
 }
 
 .menuoptions li {
-	margin: 7px 0 7px 30px;
+	margin: 7px 0 7px 0;
+}
+
+.menuoptions a {
+	padding-left: 30px;
 }
 
 .drop2 ul, li {
@@ -274,8 +281,8 @@ button:hover#menu-icon {
 
 .nav:hover .drop2 {
 	display: block;
-	float:left;
-	width: 50%;
+	position: absolute;
+	left: 370px;
 	margin: 15px 15px 0 0;
 }
 }
