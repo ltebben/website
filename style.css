@@ -60,12 +60,7 @@ h1 {
 
 
 .proj-pic {
-	max-height: 250px;
-	max-width: 250px;
-	display: inline-block;
-	float: right;
-	shape-outside: content-box;
-	-webkit-clip-path: content-box;
+	width: 100%;
 }
 
 .honors-pic {
@@ -76,12 +71,7 @@ h1 {
 }
 
 .ca {
-	display: inline-block;
-	max-height: 220px;
-	max-width: 125px;
-	float: right;
-	shape-outside: content-box;
-	-webkit-clip-path: content-box;
+	max-width: 49%;
 }
 
 .main-body {
@@ -98,12 +88,7 @@ h1 {
 }
 
 #mb {
-	display: inline-block;
-	max-height: 250px;
-	max-width: 250px;
-	float: right;
-	shape-outside: content-box;
-	-webkit-clip-path: content-box;
+	max-width: 100%;
 }
 
 .page-body h1 {
@@ -139,6 +124,26 @@ h1 {
 	shape-outside: content-box;
 	margin-top: 40px;
 }
+
+#mb, .proj-pic, .ca {
+	display: inline-block;
+	float: right;
+	shape-outside: content-box;
+	-webkit-clip-path: content-box;
+}
+
+
+#mb, .proj-pic {
+	max-height: 250px;
+	max-width: 250px;
+}
+
+
+.ca {
+	max-height: 220px;
+	max-width: 125px;
+}
+
 }
 .coop-body {
 	line-height: 1.5em;
