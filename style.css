@@ -177,6 +177,7 @@ h1 {
 	list-style-type: none;
 	text-decoration: none;
 	display: block;
+	/* padding: 0 10px; */
 }
 
 .droptitle {
@@ -198,7 +199,7 @@ h1 {
 	display: none;
 	position: absolute;
 	background-color: #eee;
-	width: 70%;
+	width: 75%;
 	z-index: 1000;
 }
 
@@ -211,8 +212,12 @@ h1 {
 	text-decoration: none;
 }
 
+.drop1 a {
+	padding: 10px;
+}
+
 .drop1 a:hover, .drop2 a:hover {
-	background-color: #ededed;
+	background-color: #dcdcdc;
 }
 
 .dropdown:hover .drop1 {
