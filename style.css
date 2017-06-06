@@ -312,4 +312,8 @@ button:hover#menu-icon {
 	width: 70%;
 	margin: 5px 15px 0 0;
 }
+
+.shadowed-content {
+	max-width: 85%;
+}
 }
