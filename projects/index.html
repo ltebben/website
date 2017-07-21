@@ -67,21 +67,27 @@
 		<div class="description">
 			<h3>Digital Circuit Visualizer:</h3>
 			<a href="./circuitvisualizer.png" target="_blank"><img class="proj-pic" src="circuitvisualizer.png" alt="screenshot of a circuit and a true/false table" /></a>
-			<p>I have been working with a partner on a Java applet that allows a user to build and test a digital circuit. The user first
+			<p>A partner and I created a Java applet that allows a user to build and test a digital circuit. The user first
 				places the top level gate, then adds child gates associated with that gate, and adds inputs as needed. Then they can
-				click “Evaluate” and the program will return the expected output. This project implements abstract classes, and we hope
-				to extend it to use multithreading. You can view the project here: <a href="https://github.com/zcollins0/digital-circuit-visualizer">github.com/zcollins0/digital-circuit-visualizer</a>,
-				though it is still a work in progress. It works but there are some bugs when deleting gates and displaying the results
-				table.</p>
+				click “Evaluate” and the program will return the expected output. If no inputs are specified, it will create a table displaying all possible input combinations and the results of each. You can view the project here: <a href="https://github.com/zcollins0/digital-circuit-visualizer">github.com/zcollins0/digital-circuit-visualizer</a></p>
 		</div>
+		
+		<div class="description">
+			<h3>Tiquito: </h3>
+			<a href="./tiquitoElectron.png" target="_blank"><img src="tiquitoElectron.png" alt="Electron app to manage tickets" class="tiquito" id="electron"/>
+			</a><a href="./tiquitoWeb.png" target="_blank"><img src="tiquitoWeb.png" alt="Web form to create a ticket" class="tiquito" id="web"/></a>
+			<a href="./tiquitoAndroid.png" target="_blank"><img src="tiquitoAndroid.png" alt="Android app to manage tickets" class="tiquito" id="android"></a>
+			</p>For our Software Engineering class, a group of five of us created a helpdesk ticket management system meant for use at hackathons. We were inspired by our real-life challenge of connecting RevolutionUC Hackathon participants with mentors with the relevant knowledge and skills to help them. It is comprised of 3 components: a website for participants to use to create tickets, an Electron desktop application for mentors and organizers to browse, claim, edit, and close submitted tickets, and an Android app for the same purpose as the Electron app. All the ticket data is stored in a MongoDB database and accessed through a NodeJS API by the different applications. </p>
+			<p>My focus for this project was the Android app. I created the UI for the detailed view of a ticket and gave users the ability to claim, edit, and close tickets. You can use the website at <a href="https://tiquito.com">tiquito.com</a>. You can view the complete project here: <a href="https://github.com/kurtlewis/tiquito">github.com/kurtlewis/tiquito</a></p>
+		</div>
+
 
 
 
 		<div class="description">
 			<h3>Campus Accessibility App: </h3>
 			<a href="./campusaccessibility2.png" target="_blank"><img src="campusaccessibility2.png" alt="map of UC with markers on difficult to navigate areas" class="ca" /></a>
-			<a href="./campusaccessibility.png" target="_blank"><img src="campusaccessibility.png" alt="popup describing the problem area and a suggested alternate route" class="ca"
-				/></a>
+			<a href="./campusaccessibility.png" target="_blank"><img src="campusaccessibility.png" alt="popup describing the problem area and a suggested alternate route" class="ca"/></a>
 			<p>For 2016's HackOhi/o, Ohio State University's hackathon, two friends and I created an Android app intended for people
 				with physical disabilities. It aims to help those people navigate the University of Cincinnati's difficult campus. UC
 				is build upwards instead of outwards, which can lead to a lot of areas with long, steep wheelchair ramps, and some areas
@@ -93,7 +99,7 @@
 		<div class="description">
 
 			<h3>Recruiter Without the E:</h3>
-			<a href="./recruiterprofile.jpg" target="_blank"><img class="proj-pic" src="recruiterprofile.jpg" alt="screenshot of example profile" /></a>
+			<a href="./recruiterprofile.jpg" target="_blank"><img class="proj-pic" id="recruitr" src="recruiterprofile.jpg" alt="screenshot of example profile" /></a>
 			<p>Four friends and I attended GE Digital's 2017 hackathon and won 1st place in the Best Recruiting Hack category. Our idea
 				was to make a web app using NodeJS where a user can enter their github username and a pdf of their resume, and from there
 				our program creates a consolidated portfolio including their github activity, hard skills, education, and experience.
