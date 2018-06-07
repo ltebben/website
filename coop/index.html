@@ -18,7 +18,7 @@
 					<li class="topic">Professional:</div>
 				<ul class="menuoptions">
 					<li><a href="../">Home</a></li>
-					<li><a href="../coop/">Siemens PLM Co-op</a></li>
+					<li><a href="../coop/">Co-op</a></li>
 					<li><a href="../ta/">Models TA</a></li>
 					<li><a href="../hackathon/">Hackathon Organizer</a></li>
 					<li><a href="../projects/">Personal Projects</a></li>
@@ -42,7 +42,7 @@
 			<button class="droptitle" href="#" data-dropdown="drop1" aria-controls="drop1" aria-expanded="false">Professional</button><br>
 			<ul class="drop1" data-dropdown-content class="f-dropdown" aria-hidden="true">
 				<li><a href="../">Home</a></li>
-				<li><a href="../coop/">Siemens PLM Co-op</a></li>
+				<li><a href="../coop/">Co-op</a></li>
 				<li><a href="../ta/">Models TA</a></li>
 				<li><a href="../hackathon/">Hackathon Organizer</a></li>
 				<li><a href="../projects/">Personal Projects</a></li>
@@ -62,6 +62,16 @@
 		</div>
 	</div>
 	<div class="bod">
+		<h1 id="coop-title">Digital Technology Intern</h1>
+		<h3>GE Digital</h3>
+		<div class="coop-body">
+			<p>I started my first rotation with GE Digital (and my 4th rotation total) in August 2017. My team manages a lot of GE's data, including storing it in a database and providing APIs to interact with it. I did a variety of backend tasks for my team. I created a bunch of API endpoints for other teams as they requested them. I wrote testing files and automation scripts to improve our build/test/deploy process. I wrote and maintain the tool that is responsible for populating our database with information from the IT software ServiceNow. I created a chatbot that is integrated with Skype and Microsoft Teams that plugs into our data and allows users to ask questions like "What is Laura's phone number?" and "Who owns server 10.128.255.102?" I got a lot of exposure to new tools like Chef, Scalr, ElasticSearch, Postgres, Kafka, and Redis. I got a large variety of experiences and learned a lot about how to manage large amounts of data. I really feel like I made a difference this semester and I know management was impressed with my work because they agreed to send me to the Atlanta office for the summer. </p>
+		</div>
+		<h1 id="coop-title">Software Engineering Coop</h1>
+		<h3>Siemens PLM Software</h3>
+		<div class="coop-body">
+			<p>For my third rotation with Siemens, I was transferred to the UI/UX team. I was responsible for fixing bug reports and coverity issues. My big project for the semester was to extend our table editor functionality, which was based on QT. We wanted to have a column type "icon", and we wanted users to be able to hover over the icons and see tooltips. This was my first deep dive into NX's codebase (which is over a million lines) and it was pretty daunting. The project was very educational though. I learned a lot more about data structures and abstraction from this code than I did in class. Once I got my bearings, adding the "icon" column type and the tooltips was pretty straigtforward. The challenge came when I had to design and implement a method to filter by icon. I decided to display the filter dialog excel-style. There was a list of all the icons that appeared in the table, each with a checkbox next to it. Checked icons would stay, unchecked icons would be filtered out of the view. A cell could have multiple icons so I had to be careful that if a cell contained some checked icons and some unchecked icons I didn't filter it out. After a lot of drawing it out on paper and trial and error, I got an algorithm that worked! The other big struggle with this was fitting the code into the project structure. Filtering on other column types did not work the same way, so it was difficult to merge this code in without messing up anything else. But by the end of the semester I got it all working and I learned so much in the process.</p>
+		</div>
 		<h1 id="coop-title">Applications Engineering Coop</h1>
 		<h3>Siemens PLM Software</h3>
 		<a href="./siemens.jpg" target="_blank"><img class="article-pic" src="siemens.jpg" alt="Other co-ops and me at Siemens PLM Software" /></a>
@@ -85,15 +95,9 @@
 				functionality of a tool that allowed users to search for part files based on features they contained. This tool was to
 				be used internally to determine good part files to use for testing purposes. For example, if I was going to test for
 				bugs in editing dimensions, I could use this tool to search a directory for part files containing a specified number
-				of dimensions. It would return a list of files, then from that I could choose one that best suited my purposes. My role
-				in this project was to extend the number of different types of Drafting data the tool collected, so searches could be
-				more specific. Because I had been a tester up until this point, I started this project without having previously worked
-				with the NX code base. Additionally, my manager did not work in the same office as me, and he didn’t know anything about
-				programming. So in the short amount of time I had, I had to teach myself the structure of the code and how to use NX’s
-				API, then apply what I learned to complete this project. I had some help from other developers along the way, but I learned
-				most of this information on my own. At the end of 3 weeks, I had more than doubled the number of pieces of Drafting information
+				of dimensions. My role in this project was to extend the number of different types of Drafting data the tool collected so searches could be more specific. At the end of 3 weeks, I had more than doubled the number of pieces of Drafting information
 				the tool scanned for. When I first got the project, it scanned for 25-30 pieces of Drafting data. In my time of working
-				with it, I increased that number to 55-65 pieces of Drafting data. This tool is going to save QA analysts a lot of time
+				with it, I increased that number to 55-65 pieces of Drafting data. This tool will save QA analysts a lot of time
 				since they won’t have to manually search through directories to find part files that match their needs.</p>
 		</div>
 	</div>
